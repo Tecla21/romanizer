@@ -16,10 +16,19 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
+```ruby
 require 'romanizer'
 
-Romanizer.to_roman(2024) # => "MMXXIV"
-Romanizer.to_integer("XLII") # => 42
+puts Romanizer.to_roman(2024)  # => "MMXXIV"
+puts Romanizer.to_roman(99)    # => "XCIX"
+puts Romanizer.to_roman(1)     # => "I"
+
+puts Romanizer.to_integer("MMXXIV")  # => 2024
+puts Romanizer.to_integer("XCIX")    # => 99
+puts Romanizer.to_integer("I")       # => 1
+
+puts Romanizer.valid_roman?("MMXXIV")  # => true
+puts Romanizer.valid_roman?("ABC")     # => false
 
 Why Use Romanizer?
     Simple and efficient: No unnecessary dependencies, just pure Ruby.
