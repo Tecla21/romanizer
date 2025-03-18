@@ -5,8 +5,8 @@ require_relative "lib/romanizer/version"
 Gem::Specification.new do |spec|
   spec.name = "romanizer"
   spec.version = Romanizer::VERSION
-  spec.authors = ["muatsoft"]
-  spec.email = ["amuatelembe@gmail.com"]
+  spec.authors = ["tecla21"]
+  spec.email = ["geral@tecla21.ao"]
 
   spec.summary = "Romanizer - Convert Integers to Roman Numerals and Vice-Versa."
   spec.description = "Romanizer is a lightweight and efficient Ruby gem that provides seamless conversion between integers and Roman numerals. Whether you need to convert numbers to their Roman representations or decode Roman numerals back into integers, Romanizer makes it simple and reliable."
