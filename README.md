@@ -29,6 +29,7 @@ puts Romanizer.to_integer("I")       # => 1
 
 puts Romanizer.valid_roman?("MMXXIV")  # => true
 puts Romanizer.valid_roman?("ABC")     # => false
+```
 
 Why Use Romanizer?
     Simple and efficient: No unnecessary dependencies, just pure Ruby.
